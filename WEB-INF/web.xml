@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <display-name>ConfigSys</display-name>
+    <description>Configuration System by Linus Sphinx</description>
+
+    <context-param>
+      <param-name>home</param-name>
+      <param-value>http://localhost:8080/configsys/configsys</param-value>
+      <description>URL of home page</description>
+    </context-param>
+
+    <context-param>
+      <param-name>docroot</param-name>
+      <param-value>/usr/local/templates</param-value>
+      <description>Root of the configsys document directory where xsl templates go.</description>
+    </context-param>
+
+    <context-param>
+      <param-name>typedir</param-name>
+      <param-value>Type</param-value>
+      <description>Name of the types sub-directory under docroot, where directories containing NEW.xml file will be listed by configsys.</description>
+    </context-param>
+
+    <servlet>
+      <servlet-name>configsys</servlet-name>
+      <description>Main ui, entry point to display types and actions.</description>
+      <servlet-class>configsys</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>configsys</servlet-name>
+      <url-pattern>/configsys</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>editxml</servlet-name>
+      <description>Edit Xml, loads and displays xml file in a form.</description>
+      <servlet-class>editxml</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>editxml</servlet-name>
+      <url-pattern>/editxml</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>apply</servlet-name>
+      <description>Main work horse, the style applicator used to build configuration files or useful scraps.</description>
+      <servlet-class>apply</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>apply</servlet-name>
+      <url-pattern>/apply</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>hello</servlet-name>
+      <description>hello servlet to see if the damn thing is turned on.</description>
+      <servlet-class>hello</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>hello</servlet-name>
+      <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+    <session-config>
+      <session-timeout>30</session-timeout>
+    </session-config>
+</web-app>
