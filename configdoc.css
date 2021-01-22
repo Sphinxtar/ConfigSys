@@ -1,0 +1,10 @@
+div.main-title { font-family: times, Bitstream Vera Serif, Serif; font-size: 24pt; font-weight: bold; color: black; background: white; }
+div.main-byline { font-family: arial, Bitstream Vera Sans, Sans-Serif; font-size: 18pt; font-weight: bold; color: black; background: white; }
+div.main-author { font-family: arial, Bitstream Vera Sans, Sans-Serif; font-size: 14pt; font-weight: bold; color: black; background: white; }
+div.section-title { font-family: arial, Bitstream Vera Sans, Sans-Serif; font-size: 14pt; font-weight: bold; color: black; background: white; }
+div.section-module{ font-family: arial, Bitstream Vera Sans, Sans-Serif; font-size: 12pt; font-weight: bold; color: black; background: white; }
+div.section-text { font-family: arial, Bitstream Vera Sans, Sans-Serif; font-size: 12pt; font-weight: normal; color: black; background: white; }
+body { margin:2cm 4cm 2cm 4cm; }
+table { margin-top: .5em; margin-bottom: .5em; border-collapse: collapse; font-family: arial, Bitstream Vera Sans, Sans-Serif; font-size: 11pt; font-weight: normal; color: black; background: white; }
+td, th { padding: .3em; border: 1px #ccc solid; } 
+pre { white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -o-pre-wrap; background: #faf8f0; font-size: 8pt; display: block; padding: 0em 1em 1em 1.5em; border: 1px solid #bebab0; }
