@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<node>
+<cmsdb-dbname>appserver5</cmsdb-dbname>
+<cmsdb-host>cmsdb5</cmsdb-host>
+<cmsdb-jndi>jdbc/LiferayPool</cmsdb-jndi>
+<cmsdb-port>3306</cmsdb-port>
+<cmsdb-pword>fishm0nger</cmsdb-pword>
+<cmsdb-user>portal</cmsdb-user>
+<httpd-group>apache</httpd-group>
+<httpd-name>appserver5.fullsack.com</httpd-name>
+<httpd-port>80</httpd-port>
+<httpd-ssl-host>localhost</httpd-ssl-host>
+<httpd-user>apache</httpd-user>
+<ldap-cn>cn=Directory Manager</ldap-cn>
+<ldap-dn>dc=fullsack,dc=com</ldap-dn>
+<ldap-host>dir.fullsack.com</ldap-host>
+<ldap-port>389</ldap-port>
+<ldap-pword>fl0un9er</ldap-pword>
+</node>

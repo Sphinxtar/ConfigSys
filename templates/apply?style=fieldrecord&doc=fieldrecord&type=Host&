@@ -1,0 +1,4 @@
+
+
+REPLACE INTO ISSUES SET 'timestamp' = '2013-03-13T15:40:39', 'persontype' = 'Employee', 'name' = 'test name', 'email' = 'test@emailaddress.com', 'phone' = '800-555-1212', 'division' = 'test division', 'description' = 'test description', 'severity' = 'Low', 'mapurl' = 'http://www.bing.com/maps/default.aspx?v=2&cp=38.6541291817944~-21.191264457765&lvl=15&sp=Point.38.6541291817944_-121.191264457765', 'image' = '  ogYhFoAQiFoESiFgESiBiESiBiEWgBCIWgRKIWARKIGIRKIGIRaAEIhaBEohYBEogYhEogYhFoAQiFoESiFgESvgPUAAASUVORK5CYII=';
+REPLACE INTO REVIEWS SET 'reviewer' = '', 'assignee' = '', 'date' = '', 'note' = '', 'resolution' = '';
